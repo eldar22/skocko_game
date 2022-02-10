@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="skocko.css">
+	<script src="skocko.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div class="row" id="pick_color_row">
+		<p class="correct_info">Pogodjeno mjesto i boja</p>
+		<p class="wrong_info">Pogodjena boja na pogresnom mjestu</p>
+		<table id="colors_list">
+			<tr>
+				<td class="sign" id="c1" onclick="pick_color('c1')">red</td>
+				<td class="sign" id="c2" onclick="pick_color('c2')">green</td>
+				<td class="sign" id="c3" onclick="pick_color('c3')">pink</td>
+				<td class="sign" id="c4" onclick="pick_color('c4')">yellow</td>
+				<td class="sign" id="c5" onclick="pick_color('c5')">white</td>
+				<td class="sign" id="c6" onclick="pick_color('c6')">purple</td>
+			</tr>
+		</table>
+	</div>
+		
+	<br>
+
+	<div class="row" id="game_row">
+		<table>
+			<tr>
+				<td class="sign1" id="pick1" onclick="change_color()"></td>
+				<td class="sign1" id="pick2" onclick="change_color()"></td>
+				<td class="sign1" id="pick3" onclick="change_color()"></td>
+				<td class="sign1" id="pick4" onclick="change_color()"></td>
+				<td id="hint1">
+					<p id="correct1" class="correct"></p>
+					<p id="wrong1" class="wrong"></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="sign1" id="pick5" onclick="change_color()"></td>
+				<td class="sign1" id="pick6" onclick="change_color()"></td>
+				<td class="sign1" id="pick7" onclick="change_color()"></td>
+				<td class="sign1" id="pick8" onclick="change_color()"></td>
+				<td id="hint2">
+					<p id="correct2" class="correct"></p>
+					<p id="wrong2" class="wrong"></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="sign1" id="pick9" onclick="change_color()"></td>
+				<td class="sign1" id="pick10" onclick="change_color()"></td>
+				<td class="sign1" id="pick11" onclick="change_color()"></td>
+				<td class="sign1" id="pick12" onclick="change_color()"></td>
+				<td id="hint3">
+					<p id="correct3" class="correct"></p>
+					<p id="wrong3" class="wrong"></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="sign1" id="pick13" onclick="change_color()"></td>
+				<td class="sign1" id="pick14" onclick="change_color()"></td>
+				<td class="sign1" id="pick15" onclick="change_color()"></td>
+				<td class="sign1" id="pick16" onclick="change_color()"></td>
+				<td id="hint4">
+					<p id="correct4" class="correct"></p>
+					<p id="wrong4" class="wrong"></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="sign1" id="pick17" onclick="change_color()"></td>
+				<td class="sign1" id="pick18" onclick="change_color()"></td>
+				<td class="sign1" id="pick19" onclick="change_color()"></td>
+				<td class="sign1" id="pick20" onclick="change_color()"></td>
+				<td id="hint5">
+					<p id="correct5" class="correct"></p>
+					<p id="wrong5" class="wrong"></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="sign1" id="pick21" onclick="change_color()"></td>
+				<td class="sign1" id="pick22" onclick="change_color()"></td>
+				<td class="sign1" id="pick23" onclick="change_color()"></td>
+				<td class="sign1" id="pick24" onclick="change_color()"></td>
+				<td id="hint6">
+					<p id="correct6" class="correct"></p>
+					<p id="wrong6" class="wrong"></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="sign1" id="pick25" onclick="change_color()"></td>
+				<td class="sign1" id="pick26" onclick="change_color()"></td>
+				<td class="sign1" id="pick27" onclick="change_color()"></td>
+				<td class="sign1" id="pick28" onclick="change_color()"></td>
+				<td id="hint7">
+					<p id="correct7" class="correct"></p>
+					<p id="wrong7" class="wrong"></p>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

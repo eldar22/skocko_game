@@ -1,0 +1,174 @@
+
+body{
+	min-height: 100vh;
+	background-color: gray;
+}
+
+.sign{
+	height: 50px;
+	width: 50px;
+}
+
+#c1{
+	background-color: red;
+}
+
+#c2{
+	background-color: green;
+}
+
+#c3{
+	background-color: pink;
+}
+
+#c4{
+	background-color: yellow;
+}
+
+#c5{
+	background-color: white;
+}
+
+#c6{
+	background-color: purple;
+}
+
+.sign a{
+	margin-left: 20px;
+}
+
+.sign1{
+	height: 50px;
+	width: 50px;
+	background-color: transparent;
+	border: 2px solid white;
+}
+
+td p{
+	color: white;
+}
+
+td{
+	text-align: center;
+}
+
+p{
+	margin: 0;
+}
+
+table{
+	margin: auto;
+}
+
+#main_page_body{
+	min-height: 100vh;
+	background-color: gray;
+}
+
+#game_rules p, #project_info ul{
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+
+#game_rules, #project_info{
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+h1, h3{
+	text-align: center;
+	color: white;
+}
+
+#title_row{
+	background-color: black;
+	margin-top: 15%;
+}
+
+#title_colors{
+	border: 2px solid blue;
+}
+
+#nav_bar div{
+	text-align: center;
+}
+
+#nav_bar div a{
+	text-decoration-line: none;
+	color: white;
+	padding: 10px;
+}
+
+#nav_bar div a:hover{
+	color: yellow;
+}
+
+#nav_bar{
+	background-color: black;
+	margin-bottom: 10%;
+	padding: 10px;
+}
+
+#project_info li{
+	list-style-type: none;
+}
+
+#game_rules h3, #project_info h3{
+	background-color: black;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#colors_list{
+	margin-top: 2%;
+}
+
+#pick_color_row, #game_row{
+	background-color: black;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.correct{
+	color: green;
+	margin-left: 10px;
+}
+
+.wrong{
+	color: yellow;
+	margin-left: 10px;
+}
+
+.correct_info{
+	color: green;
+	font-weight: bold;
+	text-align: center;
+}
+
+.wrong_info{
+	color: yellow;
+	font-weight: bold;
+	text-align: center;
+}
+
+#main_page_footer{
+	position: fixed;
+	bottom: 0;
+	background-color: black;
+	width: 100%;
+	padding: 10px;
+	color: gray;
+	height: 50px;
+}
+
+#main_page_footer a{
+	text-decoration-line: none;
+	color: gray;
+}
+
+#main_page_footer ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
